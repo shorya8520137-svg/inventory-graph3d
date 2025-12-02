@@ -1,0 +1,14 @@
+{
+  "framework": "create-react-app",
+  "buildCommand": "npm run build",
+  "outputDirectory": "build",
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        { "key": "X-Frame-Options", "value": "" },
+        { "key": "Access-Control-Allow-Origin", "value": "*" }
+      ]
+    }
+  ]
+}
